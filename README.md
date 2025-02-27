@@ -37,20 +37,32 @@
 ## 📁 Estructura del Proyecto
 
 Velour-Co/
+
 ├── assets/               # Imágenes y estilos CSS
+
 ├── config/               # Configuración de la base de datos
+
 ├── public/               # Archivos públicos accesibles desde el navegador
+
   ├── index.php           # Página principal (landing page)
+  
   ├── carrito.php         # Carrito de la compra
+  
   ├── checkout.php        # Proceso de pago con Stripe
+  
   ├── gracias.php         # Página de agradecimiento
+  
   ├── api/                # Archivos de la API
+  
   ├── assets/             # Imágenes y estilos CSS
     ├── js/               # Archivos de JS
     ├── css/              # Archivos de CSS
     ├── img/              # Archivos de IMG
+    
 ├── setup_database.php    # Script para la configuración de la base de datos
+
 └── update_database.php   # Script para la actualización de la base de datos
+
 
 ---
 
