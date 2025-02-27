@@ -55,6 +55,7 @@ Velour-Co/
   ├── api/                # Archivos de la API
   
   ├── assets/             # Imágenes y estilos CSS
+  
     ├── js/               # Archivos de JS
     ├── css/              # Archivos de CSS
     ├── img/              # Archivos de IMG
