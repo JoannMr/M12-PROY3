@@ -1,0 +1,54 @@
+@import url('https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap');
+
+body {
+    font-family: 'Clash Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.thank-you-container {
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    animation: fade-in 1s ease;
+}
+h1 {
+    font-size: 2.5em;
+    color: #264653;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+}
+.btn-home {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.btn-home:hover {
+    background-color: transparent;
+    color: #333;
+    border: 2px solid #333;
+}
+@keyframes fade-in {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
